@@ -9,6 +9,6 @@ do
         --recommend_num $recommend_num \
         --save_folder ./music/top_${recommend_num}/${sst}/ \
         --sst_json_path ./sst_json.json \
-        --api_key your_api_key
+        --api_key AIzaSyBrsTp97rZ8292Qg8veQD3dj5Hjz5laGKQ
     done
 done
