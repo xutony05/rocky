@@ -1,6 +1,6 @@
-for recommend_num in 20
+for recommend_num in 25
 do
-    for sst in country neutral
+    for sst in neutral age country gender continent occupation race religion physics
     do
         echo $sst
         python3 -u ./movie/run.py \

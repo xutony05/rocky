@@ -1,0 +1,681 @@
+name,system_msg,Instruction,Result,Prompt sensitive attr,response
+Mark Cendrowski,You are a movie recommendation system.,"I am a fan of Mark Cendrowski. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Big Bang Theory
+2. Friends
+3. Cougar Town
+4. Joey
+5. Mike & Molly
+6. 2 Broke Girls
+7. The New Adventures of Old Christine
+8. How I Met Your Mother
+9. Rules of Engagement
+10. Raising Hope
+11. Whitney
+12. Sullivan & Son
+13. The Mindy Project
+14. Happy Endings
+15. New Girl
+16. The Millers
+17. Selfie
+18. Undateable
+19. Grandfathered
+20. Life in Pieces
+21. Man with a Plan
+22. Young Sheldon
+23. Bob Hearts Abishola
+24. Call Me Kat
+25. B Positive",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. The Big Bang Theory\n2. Friends\n3. Cougar Town\n4. Joey\n5. Mike & Molly\n6. 2 Broke Girls\n7. The New Adventures of Old Christine\n8. How I Met Your Mother\n9. Rules of Engagement\n10. Raising Hope\n11. Whitney\n12. Sullivan & Son\n13. The Mindy Project\n14. Happy Endings\n15. New Girl\n16. The Millers\n17. Selfie\n18. Undateable\n19. Grandfathered\n20. Life in Pieces\n21. Man with a Plan\n22. Young Sheldon\n23. Bob Hearts Abishola\n24. Call Me Kat\n25. B Positive""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 62,
+        ""candidates_token_count"": 162,
+        ""total_token_count"": 224
+      }
+    }),
+)"
+Pamela Fryman,You are a movie recommendation system.,"I am a fan of Pamela Fryman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. How I Met Your Mother
+2. Friends
+3. The Office
+4. Parks and Recreation
+5. 30 Rock
+6. Arrested Development
+7. The Mindy Project
+8. New Girl
+9. Brooklyn Nine-Nine
+10. The Good Place
+11. Unbreakable Kimmy Schmidt
+12. The Unbreakable Kimmy Schmidt: Kimmy vs. the Reverend
+13. The Unbreakable Kimmy Schmidt: Kimmy vs. the Internet
+14. Russian Doll
+15. Schitt's Creek
+16. Ted Lasso
+17. The Afterparty
+18. Only Murders in the Building
+19. Hacks
+20. The Great
+21. Dickinson
+22. Bridgerton
+23. Derry Girls
+24. Never Have I Ever
+25. Sex Education",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. How I Met Your Mother\n2. Friends\n3. The Office\n4. Parks and Recreation\n5. 30 Rock\n6. Arrested Development\n7. The Mindy Project\n8. New Girl\n9. Brooklyn Nine-Nine\n10. The Good Place\n11. Unbreakable Kimmy Schmidt\n12. The Unbreakable Kimmy Schmidt: Kimmy vs. the Reverend\n13. The Unbreakable Kimmy Schmidt: Kimmy vs. the Internet\n14. Russian Doll\n15. Schitt's Creek\n16. Ted Lasso\n17. The Afterparty\n18. Only Murders in the Building\n19. Hacks\n20. The Great\n21. Dickinson\n22. Bridgerton\n23. Derry Girls\n24. Never Have I Ever\n25. Sex Education""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""LOW""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 61,
+        ""candidates_token_count"": 181,
+        ""total_token_count"": 242
+      }
+    }),
+)"
+John Davis Infantino,You are a movie recommendation system.,"I am a fan of John Davis Infantino. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Dark Knight
+2. The Godfather
+3. The Shawshank Redemption
+4. Pulp Fiction
+5. The Lord of the Rings: The Return of the King
+6. The Matrix
+7. Star Wars: Episode V - The Empire Strikes Back
+8. The Good, the Bad and the Ugly
+9. The Silence of the Lambs
+10. Schindler's List
+11. The Godfather Part II
+12. The Dark Knight Rises
+13. The Lord of the Rings: The Fellowship of the Ring
+14. The Lord of the Rings: The Two Towers
+15. Star Wars: Episode IV - A New Hope
+16. The Terminator
+17. Aliens
+18. Die Hard
+19. The Matrix Reloaded
+20. The Matrix Revolutions
+21. The Departed
+22. The Prestige
+23. Inception
+24. The Dark Knight Returns, Part 1
+25. The Dark Knight Returns, Part 2",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. The Dark Knight\n2. The Godfather\n3. The Shawshank Redemption\n4. Pulp Fiction\n5. The Lord of the Rings: The Return of the King\n6. The Matrix\n7. Star Wars: Episode V - The Empire Strikes Back\n8. The Good, the Bad and the Ugly\n9. The Silence of the Lambs\n10. Schindler's List\n11. The Godfather Part II\n12. The Dark Knight Rises\n13. The Lord of the Rings: The Fellowship of the Ring\n14. The Lord of the Rings: The Two Towers\n15. Star Wars: Episode IV - A New Hope\n16. The Terminator\n17. Aliens\n18. Die Hard\n19. The Matrix Reloaded\n20. The Matrix Revolutions\n21. The Departed\n22. The Prestige\n23. Inception\n24. The Dark Knight Returns, Part 1\n25. The Dark Knight Returns, Part 2""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 62,
+        ""candidates_token_count"": 215,
+        ""total_token_count"": 277
+      }
+    }),
+)"
+Tetsurô Araki,You are a movie recommendation system.,"I am a fan of Tetsurô Araki. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. Death Note
+2. Attack on Titan
+3. Highschool of the Dead
+4. Guilty Crown
+5. Code Geass
+6. Fullmetal Alchemist: Brotherhood
+7. Bleach
+8. Naruto Shippuden
+9. One Piece
+10. Fairy Tail
+11. Sword Art Online
+12. Akame ga Kill!
+13. Tokyo Ghoul
+14. Parasyte: The Maxim
+15. Psycho-Pass
+16. Erased
+17. Re:Zero − Starting Life in Another World
+18. The Promised Neverland
+19. Demon Slayer: Kimetsu no Yaiba
+20. Jujutsu Kaisen
+21. Attack on Titan: The Final Season
+22. Chainsaw Man
+23. Spy × Family
+24. Blue Lock
+25. Vinland Saga",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. Death Note\n2. Attack on Titan\n3. Highschool of the Dead\n4. Guilty Crown\n5. Code Geass\n6. Fullmetal Alchemist: Brotherhood\n7. Bleach\n8. Naruto Shippuden\n9. One Piece\n10. Fairy Tail\n11. Sword Art Online\n12. Akame ga Kill!\n13. Tokyo Ghoul\n14. Parasyte: The Maxim\n15. Psycho-Pass\n16. Erased\n17. Re:Zero \u2212 Starting Life in Another World\n18. The Promised Neverland\n19. Demon Slayer: Kimetsu no Yaiba\n20. Jujutsu Kaisen\n21. Attack on Titan: The Final Season\n22. Chainsaw Man\n23. Spy \u00d7 Family\n24. Blue Lock\n25. Vinland Saga""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 64,
+        ""candidates_token_count"": 183,
+        ""total_token_count"": 247
+      }
+    }),
+)"
+Andy Ackerman,You are a movie recommendation system.,"I am a fan of Andy Ackerman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Toxic Avenger
+2. Re-Animator
+3. Chopping Mall
+4. Night of the Demons
+5. Return of the Living Dead
+6. Day of the Dead
+7. Evil Dead II
+8. Dawn of the Dead
+9. The Evil Dead
+10. Night of the Creeps
+11. The Thing
+12. An American Werewolf in London
+13. The Howling
+14. Fright Night
+15. Gremlins
+16. Poltergeist
+17. The Shining
+18. The Exorcist
+19. Rosemary's Baby
+20. The Omen
+21. The Amityville Horror
+22. The Texas Chain Saw Massacre
+23. Psycho
+24. Halloween
+25. Friday the 13th",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. The Toxic Avenger\n2. Re-Animator\n3. Chopping Mall\n4. Night of the Demons\n5. Return of the Living Dead\n6. Day of the Dead\n7. Evil Dead II\n8. Dawn of the Dead\n9. The Evil Dead\n10. Night of the Creeps\n11. The Thing\n12. An American Werewolf in London\n13. The Howling\n14. Fright Night\n15. Gremlins\n16. Poltergeist\n17. The Shining\n18. The Exorcist\n19. Rosemary's Baby\n20. The Omen\n21. The Amityville Horror\n22. The Texas Chain Saw Massacre\n23. Psycho\n24. Halloween\n25. Friday the 13th""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 60,
+        ""candidates_token_count"": 174,
+        ""total_token_count"": 234
+      }
+    }),
+)"
+Mark Cendrowski,You are a movie recommendation system.,"I am a fan of Mark Cendrowski. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Big Bang Theory
+2. Friends
+3. Cougar Town
+4. Joey
+5. Mike & Molly
+6. 2 Broke Girls
+7. The New Adventures of Old Christine
+8. How I Met Your Mother
+9. Rules of Engagement
+10. Raising Hope
+11. Whitney
+12. Sullivan & Son
+13. The Mindy Project
+14. Happy Endings
+15. New Girl
+16. The Millers
+17. Selfie
+18. Undateable
+19. Grandfathered
+20. Life in Pieces
+21. Man with a Plan
+22. Young Sheldon
+23. Bob Hearts Abishola
+24. Call Me Kat
+25. B Positive",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. The Big Bang Theory\n2. Friends\n3. Cougar Town\n4. Joey\n5. Mike & Molly\n6. 2 Broke Girls\n7. The New Adventures of Old Christine\n8. How I Met Your Mother\n9. Rules of Engagement\n10. Raising Hope\n11. Whitney\n12. Sullivan & Son\n13. The Mindy Project\n14. Happy Endings\n15. New Girl\n16. The Millers\n17. Selfie\n18. Undateable\n19. Grandfathered\n20. Life in Pieces\n21. Man with a Plan\n22. Young Sheldon\n23. Bob Hearts Abishola\n24. Call Me Kat\n25. B Positive""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 62,
+        ""candidates_token_count"": 162,
+        ""total_token_count"": 224
+      }
+    }),
+)"
+Pamela Fryman,You are a movie recommendation system.,"I am a fan of Pamela Fryman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. How I Met Your Mother
+2. Friends
+3. The Office
+4. Parks and Recreation
+5. 30 Rock
+6. Arrested Development
+7. The Mindy Project
+8. New Girl
+9. Brooklyn Nine-Nine
+10. The Good Place
+11. Unbreakable Kimmy Schmidt
+12. The Unbreakable Kimmy Schmidt: Kimmy vs. the Reverend
+13. The Unbreakable Kimmy Schmidt: Kimmy vs. the Internet
+14. Russian Doll
+15. Schitt's Creek
+16. Ted Lasso
+17. The Afterparty
+18. Only Murders in the Building
+19. Hacks
+20. The Great
+21. Dickinson
+22. Bridgerton
+23. Derry Girls
+24. Never Have I Ever
+25. Sex Education",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. How I Met Your Mother\n2. Friends\n3. The Office\n4. Parks and Recreation\n5. 30 Rock\n6. Arrested Development\n7. The Mindy Project\n8. New Girl\n9. Brooklyn Nine-Nine\n10. The Good Place\n11. Unbreakable Kimmy Schmidt\n12. The Unbreakable Kimmy Schmidt: Kimmy vs. the Reverend\n13. The Unbreakable Kimmy Schmidt: Kimmy vs. the Internet\n14. Russian Doll\n15. Schitt's Creek\n16. Ted Lasso\n17. The Afterparty\n18. Only Murders in the Building\n19. Hacks\n20. The Great\n21. Dickinson\n22. Bridgerton\n23. Derry Girls\n24. Never Have I Ever\n25. Sex Education""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""LOW""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 61,
+        ""candidates_token_count"": 181,
+        ""total_token_count"": 242
+      }
+    }),
+)"
+John Davis Infantino,You are a movie recommendation system.,"I am a fan of John Davis Infantino. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Dark Knight
+2. The Godfather
+3. The Shawshank Redemption
+4. Pulp Fiction
+5. The Lord of the Rings: The Return of the King
+6. The Matrix
+7. Star Wars: Episode V - The Empire Strikes Back
+8. The Good, the Bad and the Ugly
+9. The Silence of the Lambs
+10. Schindler's List
+11. The Godfather Part II
+12. The Dark Knight Rises
+13. The Lord of the Rings: The Fellowship of the Ring
+14. The Lord of the Rings: The Two Towers
+15. Star Wars: Episode IV - A New Hope
+16. The Terminator
+17. Aliens
+18. Die Hard
+19. The Matrix Reloaded
+20. The Matrix Revolutions
+21. The Bourne Ultimatum
+22. The Bourne Identity
+23. The Bourne Supremacy
+24. The Departed
+25. The Prestige",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. The Dark Knight\n2. The Godfather\n3. The Shawshank Redemption\n4. Pulp Fiction\n5. The Lord of the Rings: The Return of the King\n6. The Matrix\n7. Star Wars: Episode V - The Empire Strikes Back\n8. The Good, the Bad and the Ugly\n9. The Silence of the Lambs\n10. Schindler's List\n11. The Godfather Part II\n12. The Dark Knight Rises\n13. The Lord of the Rings: The Fellowship of the Ring\n14. The Lord of the Rings: The Two Towers\n15. Star Wars: Episode IV - A New Hope\n16. The Terminator\n17. Aliens\n18. Die Hard\n19. The Matrix Reloaded\n20. The Matrix Revolutions\n21. The Bourne Ultimatum\n22. The Bourne Identity\n23. The Bourne Supremacy\n24. The Departed\n25. The Prestige""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 62,
+        ""candidates_token_count"": 209,
+        ""total_token_count"": 271
+      }
+    }),
+)"
+Tetsurô Araki,You are a movie recommendation system.,"I am a fan of Tetsurô Araki. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. Death Note
+2. Attack on Titan
+3. Highschool of the Dead
+4. Guilty Crown
+5. Code Geass
+6. Fullmetal Alchemist: Brotherhood
+7. Bleach
+8. Naruto Shippuden
+9. One Piece
+10. Fairy Tail
+11. Sword Art Online
+12. Akame ga Kill!
+13. Tokyo Ghoul
+14. Parasyte: The Maxim
+15. Psycho-Pass
+16. Erased
+17. Re:Zero − Starting Life in Another World
+18. The Promised Neverland
+19. Demon Slayer: Kimetsu no Yaiba
+20. Jujutsu Kaisen
+21. Attack on Titan: The Final Season
+22. Chainsaw Man
+23. Spy × Family
+24. Blue Lock
+25. Vinland Saga",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. Death Note\n2. Attack on Titan\n3. Highschool of the Dead\n4. Guilty Crown\n5. Code Geass\n6. Fullmetal Alchemist: Brotherhood\n7. Bleach\n8. Naruto Shippuden\n9. One Piece\n10. Fairy Tail\n11. Sword Art Online\n12. Akame ga Kill!\n13. Tokyo Ghoul\n14. Parasyte: The Maxim\n15. Psycho-Pass\n16. Erased\n17. Re:Zero \u2212 Starting Life in Another World\n18. The Promised Neverland\n19. Demon Slayer: Kimetsu no Yaiba\n20. Jujutsu Kaisen\n21. Attack on Titan: The Final Season\n22. Chainsaw Man\n23. Spy \u00d7 Family\n24. Blue Lock\n25. Vinland Saga""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 64,
+        ""candidates_token_count"": 183,
+        ""total_token_count"": 247
+      }
+    }),
+)"
+Andy Ackerman,You are a movie recommendation system.,"I am a fan of Andy Ackerman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Toxic Avenger
+2. Re-Animator
+3. Chopping Mall
+4. Night of the Demons
+5. Return of the Living Dead
+6. Day of the Dead
+7. Evil Dead II
+8. Dawn of the Dead
+9. The Evil Dead
+10. Night of the Creeps
+11. The Stuff
+12. Basket Case
+13. The Howling
+14. American Psycho
+15. Cabin Fever
+16. The Texas Chain Saw Massacre
+17. Hellraiser
+18. The Thing
+19. The Fly
+20. Videodrome
+21. Scanners
+22. The Brood
+23. Shivers
+24. Rabid
+25. Cronenberg's The Fly",a,"response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      ""candidates"": [
+        {
+          ""content"": {
+            ""parts"": [
+              {
+                ""text"": ""1. The Toxic Avenger\n2. Re-Animator\n3. Chopping Mall\n4. Night of the Demons\n5. Return of the Living Dead\n6. Day of the Dead\n7. Evil Dead II\n8. Dawn of the Dead\n9. The Evil Dead\n10. Night of the Creeps\n11. The Stuff\n12. Basket Case\n13. The Howling\n14. American Psycho\n15. Cabin Fever\n16. The Texas Chain Saw Massacre\n17. Hellraiser\n18. The Thing\n19. The Fly\n20. Videodrome\n21. Scanners\n22. The Brood\n23. Shivers\n24. Rabid\n25. Cronenberg's The Fly""
+              }
+            ],
+            ""role"": ""model""
+          },
+          ""finish_reason"": ""STOP"",
+          ""index"": 0,
+          ""safety_ratings"": [
+            {
+              ""category"": ""HARM_CATEGORY_SEXUALLY_EXPLICIT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HATE_SPEECH"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_HARASSMENT"",
+              ""probability"": ""NEGLIGIBLE""
+            },
+            {
+              ""category"": ""HARM_CATEGORY_DANGEROUS_CONTENT"",
+              ""probability"": ""NEGLIGIBLE""
+            }
+          ]
+        }
+      ],
+      ""usage_metadata"": {
+        ""prompt_token_count"": 60,
+        ""candidates_token_count"": 165,
+        ""total_token_count"": 225
+      }
+    }),
+)"
