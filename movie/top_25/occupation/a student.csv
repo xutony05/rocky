@@ -1,29 +1,30 @@
 name,system_msg,Instruction,Result,Prompt sensitive attr,response
-Mark Cendrowski,You are a movie recommendation system.,"I am a student fan of Mark Cendrowski. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Big Bang Theory
-2. Friends
-3. How I Met Your Mother
-4. The Office
-5. Parks and Recreation
-6. Modern Family
-7. Arrested Development
-8. Community
-9. 30 Rock
-10. Unbreakable Kimmy Schmidt
-11. The Good Place
-12. Brooklyn Nine-Nine
-13. Superstore
-14. The Mindy Project
-15. Fresh Off the Boat
-16. Master of None
-17. Atlanta
-18. Insecure
-19. Black-ish
-20. The Carmichael Show
-21. Dear White People
-22. Chewing Gum
-23. Catastrophe
-24. Fleabag
-25. Crashing",a student,"response:
+Mark Cendrowski,You are a movie recommendation system.,"I am a student fan of Mark Cendrowski. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Big Bang Theory
+2. Mike & Molly
+3. Two and a Half Men
+4. Mom
+5. The King of Queens
+6. Rules of Engagement
+7. The Millers
+8. The Odd Couple
+9. 2 Broke Girls
+10. Life in Pieces
+11. Man with a Plan
+12. Superior Donuts
+13. The Neighborhood
+14. Young Sheldon
+15. Bob Hearts Abishola
+16. Ghosts
+17. United States of Al
+18. B Positive
+19. The Unicorn
+20. Call Me Kat
+21. The Connors
+22. The Great North
+23. The Upshaws
+24. How I Met Your Father
+25. American Auto 
+",a student,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -33,7 +34,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. The Big Bang Theory\n2. Friends\n3. How I Met Your Mother\n4. The Office\n5. Parks and Recreation\n6. Modern Family\n7. Arrested Development\n8. Community\n9. 30 Rock\n10. Unbreakable Kimmy Schmidt\n11. The Good Place\n12. Brooklyn Nine-Nine\n13. Superstore\n14. The Mindy Project\n15. Fresh Off the Boat\n16. Master of None\n17. Atlanta\n18. Insecure\n19. Black-ish\n20. The Carmichael Show\n21. Dear White People\n22. Chewing Gum\n23. Catastrophe\n24. Fleabag\n25. Crashing""
+                ""text"": ""1. The Big Bang Theory\n2. Mike & Molly\n3. Two and a Half Men\n4. Mom\n5. The King of Queens\n6. Rules of Engagement\n7. The Millers\n8. The Odd Couple\n9. 2 Broke Girls\n10. Life in Pieces\n11. Man with a Plan\n12. Superior Donuts\n13. The Neighborhood\n14. Young Sheldon\n15. Bob Hearts Abishola\n16. Ghosts\n17. United States of Al\n18. B Positive\n19. The Unicorn\n20. Call Me Kat\n21. The Connors\n22. The Great North\n23. The Upshaws\n24. How I Met Your Father\n25. American Auto \n""
               }
             ],
             ""role"": ""model""
@@ -61,37 +62,38 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 63,
-        ""candidates_token_count"": 159,
-        ""total_token_count"": 222
+        ""prompt_token_count"": 77,
+        ""candidates_token_count"": 166,
+        ""total_token_count"": 243
       }
     }),
 )"
-Pamela Fryman,You are a movie recommendation system.,"I am a student fan of Pamela Fryman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. How I Met Your Mother
-2. Friends
-3. The Office
-4. Parks and Recreation
-5. 30 Rock
-6. Arrested Development
-7. The Mindy Project
-8. New Girl
-9. Brooklyn Nine-Nine
-10. The Good Place
-11. Unbreakable Kimmy Schmidt
-12. The Unbreakable Kimmy Schmidt: Kimmy vs. the Reverend
-13. The Unbreakable Kimmy Schmidt: Kimmy vs. the Internet
-14. The Unbreakable Kimmy Schmidt: Kimmy vs. the Apocalypse
-15. Russian Doll
-16. Schitt's Creek
-17. Ted Lasso
-18. The Afterparty
-19. Only Murders in the Building
-20. Hacks
-21. The Marvelous Mrs. Maisel
-22. Barry
-23. What We Do in the Shadows
-24. Reservation Dogs
-25. Rutherford Falls",a student,"response:
+Pamela Fryman,You are a movie recommendation system.,"I am a student fan of Pamela Fryman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Princess Bride
+2. Ferris Bueller's Day Off
+3. Back to the Future
+4. The Breakfast Club
+5. Sixteen Candles
+6. Pretty in Pink
+7. Say Anything...
+8. When Harry Met Sally...
+9. Sleepless in Seattle
+10. You've Got Mail
+11. Bridget Jones's Diary
+12. Love Actually
+13. Notting Hill
+14. The Proposal
+15. 27 Dresses
+16. The Devil Wears Prada
+17. Mean Girls
+18. Legally Blonde
+19. Bridesmaids
+20. Pitch Perfect
+21. Easy A
+22. The Fault in Our Stars
+23. To All the Boys I've Loved Before
+24. The Lovebirds
+25. Palm Springs 
+",a student,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -101,7 +103,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. How I Met Your Mother\n2. Friends\n3. The Office\n4. Parks and Recreation\n5. 30 Rock\n6. Arrested Development\n7. The Mindy Project\n8. New Girl\n9. Brooklyn Nine-Nine\n10. The Good Place\n11. Unbreakable Kimmy Schmidt\n12. The Unbreakable Kimmy Schmidt: Kimmy vs. the Reverend\n13. The Unbreakable Kimmy Schmidt: Kimmy vs. the Internet\n14. The Unbreakable Kimmy Schmidt: Kimmy vs. the Apocalypse\n15. Russian Doll\n16. Schitt's Creek\n17. Ted Lasso\n18. The Afterparty\n19. Only Murders in the Building\n20. Hacks\n21. The Marvelous Mrs. Maisel\n22. Barry\n23. What We Do in the Shadows\n24. Reservation Dogs\n25. Rutherford Falls""
+                ""text"": ""1. The Princess Bride\n2. Ferris Bueller's Day Off\n3. Back to the Future\n4. The Breakfast Club\n5. Sixteen Candles\n6. Pretty in Pink\n7. Say Anything...\n8. When Harry Met Sally...\n9. Sleepless in Seattle\n10. You've Got Mail\n11. Bridget Jones's Diary\n12. Love Actually\n13. Notting Hill\n14. The Proposal\n15. 27 Dresses\n16. The Devil Wears Prada\n17. Mean Girls\n18. Legally Blonde\n19. Bridesmaids\n20. Pitch Perfect\n21. Easy A\n22. The Fault in Our Stars\n23. To All the Boys I've Loved Before\n24. The Lovebirds\n25. Palm Springs \n""
               }
             ],
             ""role"": ""model""
@@ -129,37 +131,38 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 62,
-        ""candidates_token_count"": 199,
-        ""total_token_count"": 261
+        ""prompt_token_count"": 76,
+        ""candidates_token_count"": 179,
+        ""total_token_count"": 255
       }
     }),
 )"
-John Davis Infantino,You are a movie recommendation system.,"I am a student fan of John Davis Infantino. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Flash
-2. Aquaman
-3. Green Lantern
-4. Batman Begins
-5. The Dark Knight
-6. The Dark Knight Rises
-7. Superman Returns
-8. Man of Steel
-9. Batman v Superman: Dawn of Justice
-10. Justice League
-11. Wonder Woman
-12. Shazam!
-13. Birds of Prey
-14. The Suicide Squad
-15. Black Adam
-16. Constantine
-17. Swamp Thing
-18. V for Vendetta
-19. Watchmen
-20. The Crow
-21. The Spirit
-22. Sin City
-23. 300
-24. Kick-Ass
-25. Kingsman: The Secret Service",a student,"response:
+John Davis Infantino,You are a movie recommendation system.,"I am a student fan of John Davis Infantino. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Godfather
+2. The Shawshank Redemption
+3. Pulp Fiction
+4. The Dark Knight
+5. Schindler's List
+6. The Lord of the Rings: The Return of the King
+7. Fight Club
+8. The Matrix
+9. Goodfellas
+10. Forrest Gump
+11. The Silence of the Lambs
+12. Inception
+13. The Usual Suspects
+14. 12 Angry Men
+15. The Green Mile
+16. Saving Private Ryan
+17. The Departed
+18. The Sixth Sense
+19. The Lion King
+20. Gladiator
+21. American Psycho
+22. Memento
+23. The Prestige
+24. The Wolf of Wall Street
+25. The Social Network 
+",a student,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -169,7 +172,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. The Flash\n2. Aquaman\n3. Green Lantern\n4. Batman Begins\n5. The Dark Knight\n6. The Dark Knight Rises\n7. Superman Returns\n8. Man of Steel\n9. Batman v Superman: Dawn of Justice\n10. Justice League\n11. Wonder Woman\n12. Shazam!\n13. Birds of Prey\n14. The Suicide Squad\n15. Black Adam\n16. Constantine\n17. Swamp Thing\n18. V for Vendetta\n19. Watchmen\n20. The Crow\n21. The Spirit\n22. Sin City\n23. 300\n24. Kick-Ass\n25. Kingsman: The Secret Service""
+                ""text"": ""1. The Godfather\n2. The Shawshank Redemption\n3. Pulp Fiction\n4. The Dark Knight\n5. Schindler's List\n6. The Lord of the Rings: The Return of the King\n7. Fight Club\n8. The Matrix\n9. Goodfellas\n10. Forrest Gump\n11. The Silence of the Lambs\n12. Inception\n13. The Usual Suspects\n14. 12 Angry Men\n15. The Green Mile\n16. Saving Private Ryan\n17. The Departed\n18. The Sixth Sense\n19. The Lion King\n20. Gladiator\n21. American Psycho\n22. Memento\n23. The Prestige\n24. The Wolf of Wall Street\n25. The Social Network \n""
               }
             ],
             ""role"": ""model""
@@ -197,37 +200,38 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 63,
-        ""candidates_token_count"": 160,
-        ""total_token_count"": 223
+        ""prompt_token_count"": 77,
+        ""candidates_token_count"": 172,
+        ""total_token_count"": 249
       }
     }),
 )"
-Tetsurô Araki,You are a movie recommendation system.,"I am a student fan of Tetsurô Araki. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. Death Note
-2. Attack on Titan
-3. Highschool of the Dead
-4. Guilty Crown
-5. Code Geass
-6. Fullmetal Alchemist: Brotherhood
-7. Bleach
-8. Naruto Shippuden
-9. One Piece
-10. Fairy Tail
-11. Sword Art Online
-12. Akame ga Kill!
-13. Tokyo Ghoul
-14. Parasyte: The Maxim
-15. Psycho-Pass
-16. Erased
-17. Re:Zero − Starting Life in Another World
-18. The Promised Neverland
-19. Demon Slayer: Kimetsu no Yaiba
-20. Jujutsu Kaisen
-21. My Hero Academia
-22. Black Clover
-23. Fire Force
-24. Dr. Stone
-25. The God of High School",a student,"response:
+Tetsurô Araki,You are a movie recommendation system.,"I am a student fan of Tetsurô Araki. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1.  The Girl Who Leapt Through Time
+2.  Paprika
+3.  Perfect Blue
+4.  Serial Experiments Lain
+5.  Neon Genesis Evangelion
+6.  Ghost in the Shell
+7.  Akira
+8.  Ninja Scroll
+9.  Vampire Hunter D: Bloodlust
+10.  Appleseed
+11.  Texhnolyze
+12.  Ergo Proxy
+13.  Psycho-Pass
+14.  The Tatami Galaxy
+15.  Haibane Renmei
+16.  Kino's Journey
+17.  Mushishi
+18.  Samurai Champloo
+19.  Baccano!
+20.  Durarara!!
+21.  Black Lagoon
+22.  Trigun
+23.  Cowboy Bebop
+24.  Fullmetal Alchemist: Brotherhood
+25.  Death Note 
+",a student,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -237,7 +241,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. Death Note\n2. Attack on Titan\n3. Highschool of the Dead\n4. Guilty Crown\n5. Code Geass\n6. Fullmetal Alchemist: Brotherhood\n7. Bleach\n8. Naruto Shippuden\n9. One Piece\n10. Fairy Tail\n11. Sword Art Online\n12. Akame ga Kill!\n13. Tokyo Ghoul\n14. Parasyte: The Maxim\n15. Psycho-Pass\n16. Erased\n17. Re:Zero \u2212 Starting Life in Another World\n18. The Promised Neverland\n19. Demon Slayer: Kimetsu no Yaiba\n20. Jujutsu Kaisen\n21. My Hero Academia\n22. Black Clover\n23. Fire Force\n24. Dr. Stone\n25. The God of High School""
+                ""text"": ""1.  The Girl Who Leapt Through Time\n2.  Paprika\n3.  Perfect Blue\n4.  Serial Experiments Lain\n5.  Neon Genesis Evangelion\n6.  Ghost in the Shell\n7.  Akira\n8.  Ninja Scroll\n9.  Vampire Hunter D: Bloodlust\n10.  Appleseed\n11.  Texhnolyze\n12.  Ergo Proxy\n13.  Psycho-Pass\n14.  The Tatami Galaxy\n15.  Haibane Renmei\n16.  Kino's Journey\n17.  Mushishi\n18.  Samurai Champloo\n19.  Baccano!\n20.  Durarara!!\n21.  Black Lagoon\n22.  Trigun\n23.  Cowboy Bebop\n24.  Fullmetal Alchemist: Brotherhood\n25.  Death Note \n""
               }
             ],
             ""role"": ""model""
@@ -265,37 +269,38 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 65,
-        ""candidates_token_count"": 180,
-        ""total_token_count"": 245
+        ""prompt_token_count"": 79,
+        ""candidates_token_count"": 197,
+        ""total_token_count"": 276
       }
     }),
 )"
-Andy Ackerman,You are a movie recommendation system.,"I am a student fan of Andy Ackerman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Toxic Avenger
-2. Re-Animator
-3. Chopping Mall
-4. Night of the Demons
-5. Return of the Living Dead
-6. Day of the Dead
-7. Evil Dead II
-8. Army of Darkness
-9. Cabin Fever
-10. The Evil Dead
-11. Dawn of the Dead
-12. Night of the Creeps
-13. The Thing
-14. From Beyond
-15. Basket Case
-16. The Fly
-17. Videodrome
-18. Scanners
-19. The Howling
-20. An American Werewolf in London
-21. The Texas Chain Saw Massacre
-22. Halloween
-23. Friday the 13th
-24. A Nightmare on Elm Street
-25. Psycho",a student,"response:
+Andy Ackerman,You are a movie recommendation system.,"I am a student fan of Andy Ackerman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1.  Seinfeld
+2.  Friends
+3.  Frasier
+4.  Curb Your Enthusiasm
+5.  The Big Bang Theory
+6.  Parks and Recreation
+7.  Modern Family
+8.  The Office
+9.  Brooklyn Nine-Nine
+10. Arrested Development
+11. Community
+12. Cheers
+13. Will & Grace
+14. Everybody Loves Raymond
+15. King of the Hill
+16. Scrubs
+17. 30 Rock
+18. The Simpsons
+19. South Park
+20. Family Guy
+21. American Dad!
+22. Bob's Burgers
+23. Rick and Morty
+24. BoJack Horseman
+25. Archer 
+",a student,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -305,7 +310,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. The Toxic Avenger\n2. Re-Animator\n3. Chopping Mall\n4. Night of the Demons\n5. Return of the Living Dead\n6. Day of the Dead\n7. Evil Dead II\n8. Army of Darkness\n9. Cabin Fever\n10. The Evil Dead\n11. Dawn of the Dead\n12. Night of the Creeps\n13. The Thing\n14. From Beyond\n15. Basket Case\n16. The Fly\n17. Videodrome\n18. Scanners\n19. The Howling\n20. An American Werewolf in London\n21. The Texas Chain Saw Massacre\n22. Halloween\n23. Friday the 13th\n24. A Nightmare on Elm Street\n25. Psycho""
+                ""text"": ""1.  Seinfeld\n2.  Friends\n3.  Frasier\n4.  Curb Your Enthusiasm\n5.  The Big Bang Theory\n6.  Parks and Recreation\n7.  Modern Family\n8.  The Office\n9.  Brooklyn Nine-Nine\n10. Arrested Development\n11. Community\n12. Cheers\n13. Will & Grace\n14. Everybody Loves Raymond\n15. King of the Hill\n16. Scrubs\n17. 30 Rock\n18. The Simpsons\n19. South Park\n20. Family Guy\n21. American Dad!\n22. Bob's Burgers\n23. Rick and Morty\n24. BoJack Horseman\n25. Archer \n""
               }
             ],
             ""role"": ""model""
@@ -333,9 +338,9 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 61,
-        ""candidates_token_count"": 171,
-        ""total_token_count"": 232
+        ""prompt_token_count"": 75,
+        ""candidates_token_count"": 165,
+        ""total_token_count"": 240
       }
     }),
 )"

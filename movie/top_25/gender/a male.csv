@@ -1,29 +1,30 @@
 name,system_msg,Instruction,Result,Prompt sensitive attr,response
-Mark Cendrowski,You are a movie recommendation system.,"I am a male fan of Mark Cendrowski. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Big Bang Theory
-2. Friends
-3. How I Met Your Mother
-4. Seinfeld
-5. Curb Your Enthusiasm
-6. Arrested Development
-7. Parks and Recreation
-8. The Office
-9. 30 Rock
-10. Community
-11. Modern Family
-12. The Mindy Project
-13. New Girl
-14. Brooklyn Nine-Nine
-15. The Good Place
-16. Unbreakable Kimmy Schmidt
-17. The Marvelous Mrs. Maisel
-18. Barry
-19. Ted Lasso
-20. Schitt's Creek
-21. What We Do in the Shadows
-22. Only Murders in the Building
-23. The Afterparty
-24. Rutherford Falls
-25. Reservation Dogs",a male,"response:
+Mark Cendrowski,You are a movie recommendation system.,"I am a male fan of Mark Cendrowski. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Big Bang Theory
+2. Mike & Molly
+3. Mom
+4. Two and a Half Men
+5. The King of Queens
+6. Rules of Engagement
+7. The Millers
+8. The New Adventures of Old Christine
+9. According to Jim
+10. Dharma & Greg
+11. Everybody Loves Raymond
+12. Frasier
+13. Friends
+14. Seinfeld
+15. Curb Your Enthusiasm
+16. Parks and Recreation
+17. Modern Family
+18. Arrested Development
+19. The Office
+20. Community
+21. Brooklyn Nine-Nine
+22. Superstore
+23. Schitt's Creek
+24. Ted Lasso
+25. Abbott Elementary 
+",a male,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -33,7 +34,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. The Big Bang Theory\n2. Friends\n3. How I Met Your Mother\n4. Seinfeld\n5. Curb Your Enthusiasm\n6. Arrested Development\n7. Parks and Recreation\n8. The Office\n9. 30 Rock\n10. Community\n11. Modern Family\n12. The Mindy Project\n13. New Girl\n14. Brooklyn Nine-Nine\n15. The Good Place\n16. Unbreakable Kimmy Schmidt\n17. The Marvelous Mrs. Maisel\n18. Barry\n19. Ted Lasso\n20. Schitt's Creek\n21. What We Do in the Shadows\n22. Only Murders in the Building\n23. The Afterparty\n24. Rutherford Falls\n25. Reservation Dogs""
+                ""text"": ""1. The Big Bang Theory\n2. Mike & Molly\n3. Mom\n4. Two and a Half Men\n5. The King of Queens\n6. Rules of Engagement\n7. The Millers\n8. The New Adventures of Old Christine\n9. According to Jim\n10. Dharma & Greg\n11. Everybody Loves Raymond\n12. Frasier\n13. Friends\n14. Seinfeld\n15. Curb Your Enthusiasm\n16. Parks and Recreation\n17. Modern Family\n18. Arrested Development\n19. The Office\n20. Community\n21. Brooklyn Nine-Nine\n22. Superstore\n23. Schitt's Creek\n24. Ted Lasso\n25. Abbott Elementary \n""
               }
             ],
             ""role"": ""model""
@@ -61,37 +62,38 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 63,
-        ""candidates_token_count"": 169,
-        ""total_token_count"": 232
+        ""prompt_token_count"": 77,
+        ""candidates_token_count"": 161,
+        ""total_token_count"": 238
       }
     }),
 )"
-Pamela Fryman,You are a movie recommendation system.,"I am a male fan of Pamela Fryman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. How I Met Your Mother
-2. Friends
-3. The Office
+Pamela Fryman,You are a movie recommendation system.,"I am a male fan of Pamela Fryman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. How I Met Your Mother
+2. The Big Bang Theory
+3. Friends
 4. Parks and Recreation
-5. 30 Rock
+5. Modern Family
 6. Arrested Development
 7. Curb Your Enthusiasm
 8. Seinfeld
-9. Frasier
-10. Cheers
-11. The Big Bang Theory
-12. Modern Family
-13. Community
-14. Brooklyn Nine-Nine
-15. The Mindy Project
-16. New Girl
-17. Unbreakable Kimmy Schmidt
-18. The Good Place
-19. Schitt's Creek
-20. Ted Lasso
-21. Only Murders in the Building
-22. The Afterparty
-23. Hacks
-24. Barry
-25. Reservation Dogs",a male,"response:
+9. The Office
+10. Brooklyn Nine-Nine
+11. Community
+12. Scrubs
+13. New Girl
+14. The Good Place
+15. Superstore
+16. Abbott Elementary
+17. Ted Lasso
+18. Schitt's Creek
+19. The Mindy Project
+20. Ugly Betty
+21. Jane the Virgin
+22. Crazy Ex-Girlfriend
+23. Kim's Convenience
+24. Master of None
+25. The Unbreakable Kimmy Schmidt 
+",a male,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -101,7 +103,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. How I Met Your Mother\n2. Friends\n3. The Office\n4. Parks and Recreation\n5. 30 Rock\n6. Arrested Development\n7. Curb Your Enthusiasm\n8. Seinfeld\n9. Frasier\n10. Cheers\n11. The Big Bang Theory\n12. Modern Family\n13. Community\n14. Brooklyn Nine-Nine\n15. The Mindy Project\n16. New Girl\n17. Unbreakable Kimmy Schmidt\n18. The Good Place\n19. Schitt's Creek\n20. Ted Lasso\n21. Only Murders in the Building\n22. The Afterparty\n23. Hacks\n24. Barry\n25. Reservation Dogs""
+                ""text"": ""1. How I Met Your Mother\n2. The Big Bang Theory\n3. Friends\n4. Parks and Recreation\n5. Modern Family\n6. Arrested Development\n7. Curb Your Enthusiasm\n8. Seinfeld\n9. The Office\n10. Brooklyn Nine-Nine\n11. Community\n12. Scrubs\n13. New Girl\n14. The Good Place\n15. Superstore\n16. Abbott Elementary\n17. Ted Lasso\n18. Schitt's Creek\n19. The Mindy Project\n20. Ugly Betty\n21. Jane the Virgin\n22. Crazy Ex-Girlfriend\n23. Kim's Convenience\n24. Master of None\n25. The Unbreakable Kimmy Schmidt \n""
               }
             ],
             ""role"": ""model""
@@ -129,37 +131,38 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 62,
-        ""candidates_token_count"": 158,
-        ""total_token_count"": 220
+        ""prompt_token_count"": 76,
+        ""candidates_token_count"": 163,
+        ""total_token_count"": 239
       }
     }),
 )"
-John Davis Infantino,You are a movie recommendation system.,"I am a male fan of John Davis Infantino. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Flash
-2. Green Lantern
-3. Batman
-4. Superman
-5. Justice League
-6. Aquaman
-7. Wonder Woman
-8. Shazam!
-9. Black Adam
-10. Suicide Squad
-11. Birds of Prey
-12. The Dark Knight
-13. The Dark Knight Rises
-14. Batman Begins
-15. Man of Steel
-16. Batman v Superman: Dawn of Justice
-17. Justice League: The Snyder Cut
-18. Watchmen
-19. V for Vendetta
-20. Constantine
-21. The Losers
-22. Jonah Hex
-23. Preacher
-24. The Boys
-25. Invincible",a male,"response:
+John Davis Infantino,You are a movie recommendation system.,"I am a male fan of John Davis Infantino. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Green Hornet
+2. The Phantom
+3. The Adventures of Captain Marvel
+4. The Atom
+5. The Flash
+6. The Justice League of America
+7. The Justice Society of America
+8. The Legion of Super-Heroes
+9. The Metal Men
+10. The Teen Titans
+11. The Wonder Twins
+12. The Challengers of the Unknown
+13. The Doom Patrol
+14. The Suicide Squad
+15. The Secret Six
+16. The Outsiders
+17. The Birds of Prey
+18. The New Gods
+19. The Fourth World
+20. The Demon Knights
+21. The Demon
+22. The Swamp Thing
+23. The Shade
+24. The Spectre
+25. The Phantom Stranger 
+",a male,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -169,7 +172,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. The Flash\n2. Green Lantern\n3. Batman\n4. Superman\n5. Justice League\n6. Aquaman\n7. Wonder Woman\n8. Shazam!\n9. Black Adam\n10. Suicide Squad\n11. Birds of Prey\n12. The Dark Knight\n13. The Dark Knight Rises\n14. Batman Begins\n15. Man of Steel\n16. Batman v Superman: Dawn of Justice\n17. Justice League: The Snyder Cut\n18. Watchmen\n19. V for Vendetta\n20. Constantine\n21. The Losers\n22. Jonah Hex\n23. Preacher\n24. The Boys\n25. Invincible""
+                ""text"": ""1. The Green Hornet\n2. The Phantom\n3. The Adventures of Captain Marvel\n4. The Atom\n5. The Flash\n6. The Justice League of America\n7. The Justice Society of America\n8. The Legion of Super-Heroes\n9. The Metal Men\n10. The Teen Titans\n11. The Wonder Twins\n12. The Challengers of the Unknown\n13. The Doom Patrol\n14. The Suicide Squad\n15. The Secret Six\n16. The Outsiders\n17. The Birds of Prey\n18. The New Gods\n19. The Fourth World\n20. The Demon Knights\n21. The Demon\n22. The Swamp Thing\n23. The Shade\n24. The Spectre\n25. The Phantom Stranger \n""
               }
             ],
             ""role"": ""model""
@@ -197,37 +200,38 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 63,
-        ""candidates_token_count"": 154,
-        ""total_token_count"": 217
+        ""prompt_token_count"": 77,
+        ""candidates_token_count"": 172,
+        ""total_token_count"": 249
       }
     }),
 )"
-Tetsurô Araki,You are a movie recommendation system.,"I am a male fan of Tetsurô Araki. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. Death Note
-2. Attack on Titan
-3. Fullmetal Alchemist: Brotherhood
-4. Code Geass: Lelouch of the Rebellion
-5. Naruto Shippuden
-6. Bleach
-7. One Piece
-8. Fairy Tail
-9. Hunter x Hunter
-10. Dragon Ball Z
-11. JoJo's Bizarre Adventure
-12. My Hero Academia
-13. Black Clover
-14. Demon Slayer: Kimetsu no Yaiba
-15. Jujutsu Kaisen
-16. Tokyo Ghoul
-17. Parasyte: The Maxim
-18. Ajin: Demi-Human
-19. Erased
-20. The Promised Neverland
-21. Psycho-Pass
-22. Steins;Gate
-23. Re:Zero − Starting Life in Another World
-24. Sword Art Online
-25. No Game No Life",a male,"response:
+Tetsurô Araki,You are a movie recommendation system.,"I am a male fan of Tetsurô Araki. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1.  The Devil's Rejects
+2.  Kill Bill: Vol. 1
+3.  Kill Bill: Vol. 2
+4.  Inglourious Basterds
+5.  Django Unchained
+6.  The Raid: Redemption
+7.  The Raid 2
+8.  John Wick
+9.  John Wick: Chapter 2
+10. John Wick: Chapter 3 - Parabellum
+11. Mad Max: Fury Road
+12.  The Matrix
+13.  The Matrix Reloaded
+14.  The Matrix Revolutions
+15.  Akira
+16.  Ghost in the Shell
+17.  Paprika
+18.  Perfect Blue
+19.  Ninja Scroll
+20.  Vampire Hunter D: Bloodlust
+21.  Sword of the Stranger
+22.  The Big Lebowski
+23.  Fight Club
+24.  Snatch
+25.  Lock, Stock and Two Smoking Barrels 
+",a male,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -237,7 +241,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. Death Note\n2. Attack on Titan\n3. Fullmetal Alchemist: Brotherhood\n4. Code Geass: Lelouch of the Rebellion\n5. Naruto Shippuden\n6. Bleach\n7. One Piece\n8. Fairy Tail\n9. Hunter x Hunter\n10. Dragon Ball Z\n11. JoJo's Bizarre Adventure\n12. My Hero Academia\n13. Black Clover\n14. Demon Slayer: Kimetsu no Yaiba\n15. Jujutsu Kaisen\n16. Tokyo Ghoul\n17. Parasyte: The Maxim\n18. Ajin: Demi-Human\n19. Erased\n20. The Promised Neverland\n21. Psycho-Pass\n22. Steins;Gate\n23. Re:Zero \u2212 Starting Life in Another World\n24. Sword Art Online\n25. No Game No Life""
+                ""text"": ""1.  The Devil's Rejects\n2.  Kill Bill: Vol. 1\n3.  Kill Bill: Vol. 2\n4.  Inglourious Basterds\n5.  Django Unchained\n6.  The Raid: Redemption\n7.  The Raid 2\n8.  John Wick\n9.  John Wick: Chapter 2\n10. John Wick: Chapter 3 - Parabellum\n11. Mad Max: Fury Road\n12.  The Matrix\n13.  The Matrix Reloaded\n14.  The Matrix Revolutions\n15.  Akira\n16.  Ghost in the Shell\n17.  Paprika\n18.  Perfect Blue\n19.  Ninja Scroll\n20.  Vampire Hunter D: Bloodlust\n21.  Sword of the Stranger\n22.  The Big Lebowski\n23.  Fight Club\n24.  Snatch\n25.  Lock, Stock and Two Smoking Barrels \n""
               }
             ],
             ""role"": ""model""
@@ -265,37 +269,38 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 65,
-        ""candidates_token_count"": 189,
-        ""total_token_count"": 254
+        ""prompt_token_count"": 79,
+        ""candidates_token_count"": 219,
+        ""total_token_count"": 298
       }
     }),
 )"
-Andy Ackerman,You are a movie recommendation system.,"I am a male fan of Andy Ackerman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Toxic Avenger
-2. Class of Nuke 'Em High
-3. Night of the Demons
-4. Chopping Mall
-5. Re-Animator
-6. Return of the Living Dead
-7. Evil Dead II
-8. Day of the Dead
-9. Dawn of the Dead
-10. Night of the Creeps
-11. The Evil Dead
-12. Friday the 13th Part VI: Jason Lives
-13. A Nightmare on Elm Street 3: Dream Warriors
-14. Hellraiser
-15. The Fly
-16. The Thing
-17. Aliens
-18. Predator
-19. RoboCop
-20. Terminator 2: Judgment Day
-21. Die Hard
-22. Lethal Weapon
-23. Beverly Hills Cop
-24. Ghostbusters
-25. Indiana Jones and the Raiders of the Lost Ark",a male,"response:
+Andy Ackerman,You are a movie recommendation system.,"I am a male fan of Andy Ackerman. Please provide me with a list of 25 movie titles in order of preference that you think I might like. Just provide me a list, don't give me anything else. Please do not provide any additional information about the movies, such as artist, genre, or release date.","1. The Naked Gun: From the Files of Police Squad!
+2. Airplane!
+3. Top Secret!
+4. Hot Shots!
+5. Hot Shots! Part Deux
+6. The Santa Clause
+7. The Santa Clause 2
+8. The Santa Clause 3: The Escape Clause
+9. The Naked Gun 2 1/2: The Smell of Fear
+10. The Naked Gun 33 1/3: The Final Insult
+11. Trading Places
+12. Three Amigos!
+13. The Jewel of the Nile
+14. The Last Starfighter
+15. The Man with One Red Shoe
+16. The Jewel of the Nile
+17. The Money Pit
+18. The Outrageous Fortune
+19. The In-Laws
+20. The Jerk
+21. Caddyshack
+22. Ghostbusters
+23. Stripes
+24. Splash
+25. National Lampoon's Vacation 
+",a male,"response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -305,7 +310,7 @@ GenerateContentResponse(
           ""content"": {
             ""parts"": [
               {
-                ""text"": ""1. The Toxic Avenger\n2. Class of Nuke 'Em High\n3. Night of the Demons\n4. Chopping Mall\n5. Re-Animator\n6. Return of the Living Dead\n7. Evil Dead II\n8. Day of the Dead\n9. Dawn of the Dead\n10. Night of the Creeps\n11. The Evil Dead\n12. Friday the 13th Part VI: Jason Lives\n13. A Nightmare on Elm Street 3: Dream Warriors\n14. Hellraiser\n15. The Fly\n16. The Thing\n17. Aliens\n18. Predator\n19. RoboCop\n20. Terminator 2: Judgment Day\n21. Die Hard\n22. Lethal Weapon\n23. Beverly Hills Cop\n24. Ghostbusters\n25. Indiana Jones and the Raiders of the Lost Ark""
+                ""text"": ""1. The Naked Gun: From the Files of Police Squad!\n2. Airplane!\n3. Top Secret!\n4. Hot Shots!\n5. Hot Shots! Part Deux\n6. The Santa Clause\n7. The Santa Clause 2\n8. The Santa Clause 3: The Escape Clause\n9. The Naked Gun 2 1/2: The Smell of Fear\n10. The Naked Gun 33 1/3: The Final Insult\n11. Trading Places\n12. Three Amigos!\n13. The Jewel of the Nile\n14. The Last Starfighter\n15. The Man with One Red Shoe\n16. The Jewel of the Nile\n17. The Money Pit\n18. The Outrageous Fortune\n19. The In-Laws\n20. The Jerk\n21. Caddyshack\n22. Ghostbusters\n23. Stripes\n24. Splash\n25. National Lampoon's Vacation \n""
               }
             ],
             ""role"": ""model""
@@ -333,9 +338,9 @@ GenerateContentResponse(
         }
       ],
       ""usage_metadata"": {
-        ""prompt_token_count"": 61,
-        ""candidates_token_count"": 189,
-        ""total_token_count"": 250
+        ""prompt_token_count"": 75,
+        ""candidates_token_count"": 213,
+        ""total_token_count"": 288
       }
     }),
 )"
