@@ -94,8 +94,8 @@ for sensitive_attr in tqdm(sst_list):
             )
     result_list = []
     print(args.collect_num)
-    # for i in range(args.start, args.collect_num):
-    for i in range(args.start, 5):
+    for i in range(args.start, args.collect_num):
+        # for i in range(args.start, 5):
         if i % 50 == 0:
             print(i)
         r = acquire_name_sensitive_attr(sensitive_attr, name_list[i])
