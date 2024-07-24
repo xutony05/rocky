@@ -1,6 +1,6 @@
 for recommend_num in 25
 do
-    for sst in age country gender continent occupation race religion neutral physics
+    for sst in french
     do
         echo $sst
         python3 -u ./music/run.py \

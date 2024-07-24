@@ -24,6 +24,11 @@
         "an American",
         "an Asian"
     ],
+    "french": [
+        "un Africain",
+        "un Americain",
+        "un Asiatique"
+    ],
     "occupation": [
         "a doctor",
         "a student",
