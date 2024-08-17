@@ -1,6 +1,6 @@
 for recommend_num in 25
 do
-    for sst in french
+    for sst in neutral country french
     do
         echo $sst
         python3 -u ./movie/run.py \
