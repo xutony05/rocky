@@ -1,5 +1,5 @@
 # When Fariness Meets Personality
-The code generates and compares music and movie recommendations for differing sensitive attributes using Gemini 1.5 Flash using the FaiRLLM benchmak by Zhang et al. You can find their paper here: https://arxiv.org/abs/2305.07609 and their code here: https://github.com/jizhi-zhang/FaiRLLM. 
+The code generates and compares music and movie recommendations for differing sensitive attributes using Gemini 1.5 Flash using the FaiRLLM benchmak by Zhang et al. You can find their paper here: https://arxiv.org/abs/2305.07609 and their code here: https://github.com/jizhi-zhang/FaiRLLM. Huge thank you to Zhang et al!
 
 run run_music.sh or run_movie.sh respectively.
 
